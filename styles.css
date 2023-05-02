@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.nav-font{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.header-font{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color:white;
+    background-color: black;
+
+}
+.section-font{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color:black;
+    margin-left: 20px;
+}
+.nav-padding{
+   padding: 20px;
+   text-align: left;
+   width:auto
+}
+.header-container{
+    display:flex;
+    justify-content:space-between;
+}
+.logo-container{
+    display:flex;
+    align-items: flex-start;
+}
+.logo{
+    height:45px;
+    padding-top: 10px;
+    width: 45px;
+    object-fit: contain;
+    justify-content: center;
+}
+.search{
+    height: 25px;
+    width: 25px;
+}
+.rt-header{
+    display:flex;
+    margin-bottom: 15px;
+}
+.border-line-long{
+    height: 3px;
+    border-width: 1px;
+    color:#000000;
+    background-color: black;
+    width:1050px;
+    justify-content: right;
+    margin-left: 25px;
+}
+.large-image{
+    width:900px;
+    height:auto;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+.border-line-med{
+    height: 3px;
+    border-width: 1px;
+    color:#000000;
+    background-color: black;
+    width:750px;
+    justify-content: right;
+    margin-left: 25px;
+}
+.border-line-small{
+    height: 3px;
+    border-width: 1px;
+    color:#000000;
+    background-color: black;
+    width:100px;
+    justify-content: right;
+    margin-left: 25px;
+}
+.image1{
+    height:auto;
+    padding: 25px;
+    width: 300px;
+    object-fit: cover;
+}
+.image2{
+    height:auto;
+    padding: 25px;
+    width: 400px;
+    object-fit: cover;
+}
+.about-us-container{
+    padding: 20px;
+    text-align: left;
+    width:auto; 
+    display:flex;
+    align-items: flex-end;
+}
+.product-container{
+    width: 300px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.inner-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color:black;
+}
+.learn-more{
+    width:100px;
+    color:#bf7632;
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline ;
+}
+.add-to-cart{
+    width:100px;
+    background-color:#bf7632;
+    font-size: 12px;
+    text-align: center;
+    color:white;
+    border-color:#bf7632 ;
+    border: 5px;
+
+}
