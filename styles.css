@@ -17,8 +17,11 @@ html {
     margin-bottom: 0px;
     margin-top: 10px;
     font-weight: bold;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
-.nav-font{
+.lorem-font{
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
@@ -28,7 +31,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
     color:white;
     background-color: black;
-
+    width:auto;    
 }
 .section-font{
     font-size: 24px;
@@ -47,7 +50,7 @@ html {
 }
 .logo-container{
     display:flex;
-    align-items: flex-start;
+    align-items: center;
 }
 .logo{
     height:45px;
@@ -148,5 +151,72 @@ html {
     color:white;
     border-color:#bf7632 ;
     border: 5px;
-
+}
+.product-image{
+    width: 250px;
+    height:200px;
+    object-fit: cover;
+}
+#message-box{
+    width: 500px;
+    height: 200px;
+    font-size:18pt;
+}
+.contact-us{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left:  175px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color:black;
+    align-items: flex-start;  
+    flex-direction: column;  
+}
+.send{
+    width:100px;
+    background-color:#bf7632;
+    font-size: 12px;
+    text-align: center;
+    color:white;
+    border-color:#bf7632 ;
+    border: 5px;
+    margin: 5px;
+    margin-left: 400px;
+    padding: 2px;
+}
+footer{
+    background-color:#bf7632;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+.social-icons{
+    height: 30px;
+    width: 30px;
+    border: 5px;
+    display: flex;   
+}
+.social-lorem-left{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;   
+}
+.social-lorem-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-items: flex-end; 
+    width:400px;
+    padding-right: 20px;  
+}
+.footer-top{
+    display: flex;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
