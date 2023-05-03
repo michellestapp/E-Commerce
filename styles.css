@@ -10,14 +10,19 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 .navigation {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
 }
@@ -26,12 +31,19 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
 }
-.header-font{
-    font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-    color:white;
-    background-color: black;
-    width:auto;    
+.main-left{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.main-right{
+    display: flex;
+    padding-right: 35px;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+
 }
 .section-font{
     font-size: 24px;
@@ -40,17 +52,33 @@ html {
     margin-left: 20px;
 }
 .nav-padding{
-   padding: 20px;
+   padding: 15px;
    text-align: left;
    width:auto
 }
 .header-container{
     display:flex;
     justify-content:space-between;
+
+}
+.main-container{
+    display:flex;
+    padding-top: 10px;
+    background-color: black;
+    justify-content:space-between;
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    color:white;
+    background-color: black;
+    width:auto;
+    padding-top: 10px;  
+
 }
 .logo-container{
     display:flex;
     align-items: center;
+    padding-bottom: 15px;
 }
 .logo{
     height:45px;
@@ -66,20 +94,22 @@ html {
 .rt-header{
     display:flex;
     margin-bottom: 15px;
+    padding-right: 15px;
+    align-items: center;
 }
 .border-line-long{
     height: 3px;
     border-width: 1px;
     color:#000000;
     background-color: black;
-    width:1050px;
+    width:auto;
     justify-content: right;
     margin-left: 25px;
+    margin-right:25px
 }
 .large-image{
     width:900px;
     height:auto;
-    padding-left: 150px;
     padding-top: 10px;
 }
 .border-line-med{
@@ -102,14 +132,12 @@ html {
 }
 .image1{
     height:auto;
-    padding: 25px;
-    width: 300px;
+    width: 250px;
     object-fit: cover;
 }
 .image2{
     height:auto;
-    padding: 25px;
-    width: 400px;
+    width: 300px;
     object-fit: cover;
 }
 .about-us-container{
@@ -118,6 +146,17 @@ html {
     width:auto; 
     display:flex;
     align-items: flex-end;
+    padding: 15px;
+    text-align: left;
+    width:auto;
+    margin: 25px;
+    
+}
+.about-us-center-text{
+    width:100px;
+    padding: 15px;
+    text-align:justify;
+    width:auto
 }
 .product-container{
     width: 300px;
