@@ -14,6 +14,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
   }
 .navigation {
     display: flex;
@@ -25,6 +26,7 @@ ul {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
+    text-decoration:none;
 }
 .lorem-font{
     font-size: 12px;
@@ -54,11 +56,12 @@ ul {
 .nav-padding{
    padding: 15px;
    text-align: left;
-   width:auto
+   width:auto;
+   text-decoration:none
 }
 .header-container{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-around;
 
 }
 .main-container{
@@ -227,12 +230,8 @@ ul {
 }
 footer{
     background-color:#bf7632;
-    height: 75px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-right: 10px;
+    height: 100px;
+
 }
 .social-icons{
     height: 30px;
@@ -258,4 +257,16 @@ footer{
     display: flex;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 10px;
+}
+.copyright{
+    display: flex;
+    justify-items: right;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 20px; 
 }
