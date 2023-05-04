@@ -131,7 +131,7 @@ ul {
     background-color: black;
     width:100px;
     justify-content: right;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 .image1{
     height:auto;
@@ -193,6 +193,8 @@ ul {
     color:white;
     border-color:#bf7632 ;
     border: 5px;
+    padding:2px;
+    text-decoration:none;
 }
 .product-image{
     width: 250px;
